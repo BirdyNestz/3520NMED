@@ -1,0 +1,183 @@
+@charset "utf-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=Jura:wght@300..700&display=swap');
+
+
+
+.button1:hover {
+	background-color: #8AACBB;
+	color: yellow;
+	
+}
+.button2:hover {
+	background-color: #8AACBB;
+	color: yellow;
+}
+.button3:hover{
+	background-color: #8AACBB;
+	color: yellow;
+	display:flex;
+	
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	
+}
+ol{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	padding-top: 5px;
+	
+}
+ul{
+	
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	padding-top: 5px;
+	
+	
+}
+
+li{
+	
+	display: inline;
+}
+
+li a{
+	display:flex;
+	background-color: #142A33;
+	color:white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+
+
+body{
+	background-color: #828C91;
+	margin:0;
+	font-family: "Jura", sans-serif;
+  	font-optical-sizing: auto;
+  	font-style: normal;
+}
+
+header{
+	background-color: #82C7E5;
+	color: yellow;
+	align-text: center;
+	padding-left: 20px;
+	
+	
+	
+	
+}
+
+header h1{
+	align-content: center;
+	text-align: center;
+	font-size: 50px;
+	padding-bottom: 50px;
+}
+.responsive{
+	
+	width: 100%;
+	height: auto;
+	
+	
+	
+}
+
+
+
+.flex-container{
+	display: flex;
+	align-items: stretch;
+}
+
+.flex-container div{
+	background-color: whitesmoke;
+	margin: 10px;
+	padding: 10px;
+}
+.img {
+   float: left;
+}
+#box3{
+	display:grid;
+	grid-template-columns: auto auto auto auto;
+	grid-gap: 10px;
+	padding-right: 10px;
+	
+	
+}
+#box4{
+	
+	display:grid;
+	grid-template-columns: auto auto auto auto;
+	grid-gap: 10px;
+	padding-right: 10px;
+	
+}
+
+h1{
+	text-shadow: 4px 3px black;
+	opacity: 0.8;
+	
+	
+}
+h3{
+	align-text: center;
+	padding-left: 20px;
+	
+}
+
+footer{
+	
+	background-color: #4A5E66;
+	align-content: center;
+	text-align: center;
+	color: white;
+	
+}
+nav{
+	
+	
+	padding-bottom: 20px;
+}
+.underline{
+	
+	text-decoration-line: underline;
+	font-size: 20px;
+}
+a:hoover{
+	color: yellow;
+  	font-size: 18px;
+}
+#ref{
+	
+	padding-top: 50px;
+	padding-bottom: 10px;
+}
+.foot{
+	
+	padding-bottom: -10px;
+}
+img{
+	padding-left: 10px;
+	padding-bottom:15px;
+	 filter: drop-shadow(8px 8px 10px gray);
+}
+/*******media quiery changes size to fit smaller screen size devices*****/
+@media (max-width: 800px){
+	
+	.flex-container{
+		flex-direction: column;
+	}
+	
+}
+
